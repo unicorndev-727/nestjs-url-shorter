@@ -1,7 +1,5 @@
 # NestJS MongoDB URL Shortener
 
-[![CI/CD](https://github.com/dominicarrojado/nestjs-mongodb-url-shortener/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/nestjs-mongodb-url-shortener/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/dominicarrojado/nestjs-mongodb-url-shortener/branch/main/graph/badge.svg?token=39DMXI4NEL)](https://codecov.io/gh/dominicarrojado/nestjs-mongodb-url-shortener)
-
 A URL shortener server-side app built with [Nest.js](https://nestjs.com/) and [MongoDB](https://www.mongodb.com/).
 
 ## Quick Start
@@ -12,13 +10,13 @@ A URL shortener server-side app built with [Nest.js](https://nestjs.com/) and [M
 4. Clone the app:
 
 ```bash
-git clone git@github.com:dominicarrojado/nestjs-mongodb-url-shortener.git
+git clone git@github.com:unicorndev-727/nestjs-url-shortener.git
 ```
 
 5. Install npm packages - _for IDE type checking_.
 
 ```bash
-cd nestjs-mongodb-url-shortener
+cd nestjs-url-shortener
 yarn install --frozen-lockfile
 ```
 
@@ -63,7 +61,3 @@ yarn docker-compose:prod
 
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-## Learn
-
-Learn how to build this url shortener app [here](https://dominicarrojado.com/posts/building-a-link-shortener-api-with-nestjs-and-mongodb-with-tests-part-1/).
